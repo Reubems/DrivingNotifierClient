@@ -1,0 +1,58 @@
+PODS:
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (3.0.0):
+    - CocoaLumberjack/Extensions
+  - CryptoSwift (0.11.0)
+  - HumioCocoaLumberjackLogger (3.0.1):
+    - CocoaLumberjack (~> 3.0.0)
+  - OneSignal (2.8.5)
+  - SnapKit (4.0.0)
+  - SwiftLint (0.27.0)
+  - ThePerfectApp (4.6.2)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift (~> 3.0.0)
+  - CryptoSwift
+  - HumioCocoaLumberjackLogger (from `https://github.com/jjuncker/HumioCocoaLumberjackLogger.git`)
+  - OneSignal (< 3.0, >= 2.5.2)
+  - SnapKit (= 4.0.0)
+  - SwiftLint
+  - ThePerfectApp (= 4.6.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - CryptoSwift
+    - OneSignal
+    - SnapKit
+    - SwiftLint
+    - ThePerfectApp
+
+EXTERNAL SOURCES:
+  HumioCocoaLumberjackLogger:
+    :git: https://github.com/jjuncker/HumioCocoaLumberjackLogger.git
+
+CHECKOUT OPTIONS:
+  HumioCocoaLumberjackLogger:
+    :commit: aff01eb18508f678e72a6f549990e11ecf1dd312
+    :git: https://github.com/jjuncker/HumioCocoaLumberjackLogger.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  CryptoSwift: ad5208dd2aae0a764ea4ce2c2d34bd067cae67f0
+  HumioCocoaLumberjackLogger: c157d7086b0d9e9cb6910a9d4439ce364f70d829
+  OneSignal: 42dae269c7eca517aee34963820e1eb922390031
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  ThePerfectApp: 2ead0c713a890b11a82ce2d322981c4f094af64a
+
+PODFILE CHECKSUM: 2531ed7503c397fc2dbec381bfd20084f2e901f8
+
+COCOAPODS: 1.5.2

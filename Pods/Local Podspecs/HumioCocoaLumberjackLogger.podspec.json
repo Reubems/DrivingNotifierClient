@@ -1,0 +1,23 @@
+{
+  "name": "HumioCocoaLumberjackLogger",
+  "version": "3.0.1",
+  "license": "MIT",
+  "summary": "Sends your Lumberjack logging directly to Humio",
+  "homepage": "https://cloud.humio.com",
+  "authors": {
+    "Jimmy Juncker": ""
+  },
+  "source": {
+    "git": "https://github.com/jjuncker/HumioCocoaLumberjackLogger",
+    "tag": "3.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Classes/*.swift",
+  "dependencies": {
+    "CocoaLumberjack": [
+      "~> 3.0.0"
+    ]
+  }
+}
